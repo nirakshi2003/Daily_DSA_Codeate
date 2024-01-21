@@ -1,10 +1,11 @@
 def union(arr1, arr2):
-    arr3=set(arr1).union(arr2)
-    result=sorted(list(arr3))
-    return result
+    set1=set(arr1)
+    set2=set(arr2)
+    union_set=set1.union(set2)
+    return union_set
 
 arr1=[1,2,3,4,5]
 arr2=[2,3,4,4,5]
 
-result=union(arr1, arr2)
-print(result)
+union_set=union(arr1, arr2)
+print(union_set)
