@@ -1,8 +1,8 @@
 def appearing_once(arr):
     result=0
     for num in arr:
-        result ^= num          #XOR with a number itself returns 0. When we XOR an element that appears twice
-                               #with the result it cancels out returning 0.
+        result ^= num          #XOR with a number itself returns 0. 
+                               #When we XOR an element that appears twice with the result it cancels out and returns 0.
                                #But when we XOR the single number with 0, it remains unchanged.
     return result
 
