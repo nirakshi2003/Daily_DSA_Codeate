@@ -9,7 +9,6 @@ def kadane(arr):
         if max_current > max_global:
             max_global=max_current
             end_index=i
-
     return max_global, arr[start_index:end_index+1]
 
 arr=[]
